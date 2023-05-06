@@ -1,3 +1,8 @@
+import Signup from "../src/application/usecases/Signup";
+import Login from "../src/application/usecases/Login";
+
+import UserRepositoryMemory from "../src/infra/repository/memory/UserRepositoryMemory";
+
 test("Deve fazer o signup", async function () {
   //given, when, then- arrange, act, assert
 
